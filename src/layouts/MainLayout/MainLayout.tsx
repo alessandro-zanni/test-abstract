@@ -14,7 +14,7 @@ export const MainLayout: FC = () => (
     gap="0"
     minH="100vh"
   >
-    <GridItem area="header" borderBottom="1px solid" borderColor="black">
+    <GridItem area="header">
       <Header />
     </GridItem>
     <GridItem area="main">
