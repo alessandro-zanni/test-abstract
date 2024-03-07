@@ -21,10 +21,10 @@ export const HeaderLink: FC<HeaderLinkProps> = ({ label, to, ...rest }) => (
     borderColor="transparent"
     _hover={{
       textDecoration: 'none',
-      borderColor: 'blue.500',
+      borderColor: 'black',
     }}
     _activeLink={{
-      borderColor: 'blue.500',
+      borderColor: 'black',
     }}
     {...rest}
   >

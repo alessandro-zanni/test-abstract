@@ -1,9 +1,9 @@
 import { Button, HStack, Input } from '@chakra-ui/react';
 import { FC } from 'react';
 
-export const HeaderSearchInput: FC = () => (
+export const HeaderSearchForm: FC = () => (
   <HStack spacing={2}>
     <Input placeholder="Search..." />
-    <Button colorScheme="blue">RESET</Button>
+    <Button>RESET</Button>
   </HStack>
 );

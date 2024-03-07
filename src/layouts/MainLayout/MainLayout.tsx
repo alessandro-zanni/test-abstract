@@ -1,7 +1,7 @@
 import { Grid, GridItem } from '@chakra-ui/react';
 import { FC } from 'react';
 import { Outlet } from 'react-router-dom';
-import { Header } from '../../components';
+import { Footer, Header } from '../../components';
 import { FOOTER_HEIGHT, HEADER_HEIGHT } from '../../utils/constants';
 
 export const MainLayout: FC = () => (
@@ -14,14 +14,14 @@ export const MainLayout: FC = () => (
     gap="0"
     minH="100vh"
   >
-    <GridItem area="header" borderBottom="1px solid" borderColor="blue.500">
+    <GridItem area="header" borderBottom="1px solid" borderColor="black">
       <Header />
     </GridItem>
     <GridItem area="main">
       <Outlet />
     </GridItem>
-    <GridItem area="footer" bg="blue.500">
-      Footer
+    <GridItem area="footer" bg="black" color="white">
+      <Footer />
     </GridItem>
   </Grid>
 );

@@ -6,3 +6,7 @@ export const HEADER_LINKS = [
   { label: 'Eyeglasses', to: '/eyeglasses' },
   { label: 'Lenses', to: '/lenses' },
 ];
+export const SOCIAL_LINKS = [
+  { label: 'Twitter', href: 'https://twitter.com/' },
+  { label: 'Facebook', href: 'https://www.facebook.com/' },
+];

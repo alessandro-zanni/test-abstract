@@ -1,7 +1,7 @@
 import { Container, Flex } from '@chakra-ui/react';
 import { FC } from 'react';
 import { HeaderLinks } from './HeaderLinks';
-import { HeaderSearchInput } from './HeaderSearchInput';
+import { HeaderSearchForm } from './HeaderSearchForm';
 import { Logo } from './Logo';
 
 export const Header: FC = () => (
@@ -9,7 +9,7 @@ export const Header: FC = () => (
     <Flex align="center" justify="space-between" h="100%">
       <Logo />
       <HeaderLinks />
-      <HeaderSearchInput />
+      <HeaderSearchForm />
     </Flex>
   </Container>
 );
