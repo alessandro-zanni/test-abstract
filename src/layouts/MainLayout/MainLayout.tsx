@@ -14,13 +14,13 @@ export const MainLayout: FC = () => (
     gap="0"
     minH="100vh"
   >
-    <GridItem area="header" bg="blue.300">
+    <GridItem area="header" borderBottom="1px solid" borderColor="blue.500">
       <Header />
     </GridItem>
-    <GridItem area="main" bg="red.300">
+    <GridItem area="main">
       <Outlet />
     </GridItem>
-    <GridItem area="footer" bg="yellow.300">
+    <GridItem area="footer" bg="blue.500">
       Footer
     </GridItem>
   </Grid>
