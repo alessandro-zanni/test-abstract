@@ -1,10 +1,11 @@
-import { Box, Container, Flex, Text } from '@chakra-ui/react';
+import { Box, Flex, Text } from '@chakra-ui/react';
 import { FC } from 'react';
+import { Container } from '../Container';
 import { FooterLinks } from './FooterLinks';
 import { FooterSignUpForm } from './FooterSignUpForm';
 
 export const Footer: FC = () => (
-  <Container maxW="8xl" h="100%" py="4">
+  <Container>
     <Box h="100%">
       <Flex align="start" justify="space-between">
         <Text>Subscribe to our newsletter</Text>

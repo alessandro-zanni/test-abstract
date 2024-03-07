@@ -38,5 +38,3 @@ export const LoremIpsum: FC<LoremIpsumProps> = ({ count = 1 }) => {
     </Box>
   );
 };
-
-export default LoremIpsum;
