@@ -1,5 +1,5 @@
 import { Button, HStack, Input } from '@chakra-ui/react';
-import { FC } from 'react';
+import { type FC } from 'react';
 
 export const FooterSignUpForm: FC = () => (
   <HStack spacing={2}>

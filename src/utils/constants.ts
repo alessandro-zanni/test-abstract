@@ -10,3 +10,6 @@ export const SOCIAL_LINKS = [
   { label: 'Twitter', href: 'https://twitter.com/' },
   { label: 'Facebook', href: 'https://www.facebook.com/' },
 ];
+
+export const SUNGLASSES_ENDPOINT =
+  'https://assets.fc-dev.instore.oakley.com/assets/products/products.json';

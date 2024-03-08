@@ -1,4 +1,4 @@
-import { FC } from 'react';
+import { type FC } from 'react';
 import { Container, LoremIpsum } from '../../components';
 
 export const Home: FC = () => (

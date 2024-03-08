@@ -1,5 +1,5 @@
 import { Image, Link } from '@chakra-ui/react';
-import { FC } from 'react';
+import { type FC } from 'react';
 import { NavLink as RRLink } from 'react-router-dom';
 
 export const Logo: FC = () => (

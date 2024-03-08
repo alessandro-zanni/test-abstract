@@ -1,5 +1,5 @@
 import { Box, Center, Heading, Image, Text } from '@chakra-ui/react';
-import { FC } from 'react';
+import { type FC } from 'react';
 import { useRouteError } from 'react-router-dom';
 
 export const NotFound: FC = () => {

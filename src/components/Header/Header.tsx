@@ -1,5 +1,5 @@
 import { Box, Flex } from '@chakra-ui/react';
-import { FC } from 'react';
+import { type FC } from 'react';
 import { HEADER_HEIGHT } from '../../utils/constants';
 import { Container } from '../Container';
 import { HeaderLinks } from './HeaderLinks';

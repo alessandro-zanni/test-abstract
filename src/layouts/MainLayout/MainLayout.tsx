@@ -1,5 +1,5 @@
 import { Grid, GridItem } from '@chakra-ui/react';
-import { FC } from 'react';
+import { type FC } from 'react';
 import { Outlet } from 'react-router-dom';
 import { Footer, Header } from '../../components';
 import { FOOTER_HEIGHT, HEADER_HEIGHT } from '../../utils/constants';

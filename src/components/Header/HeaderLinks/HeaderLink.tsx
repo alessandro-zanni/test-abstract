@@ -1,5 +1,5 @@
-import { Link, LinkProps } from '@chakra-ui/react';
-import { FC } from 'react';
+import { Link, type LinkProps } from '@chakra-ui/react';
+import { type FC } from 'react';
 import { NavLink as RRLink } from 'react-router-dom';
 
 export interface HeaderLinkProps extends LinkProps {

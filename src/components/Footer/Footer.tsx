@@ -1,5 +1,5 @@
 import { Box, Flex, Text } from '@chakra-ui/react';
-import { FC } from 'react';
+import { type FC } from 'react';
 import { Container } from '../Container';
 import { FooterLinks } from './FooterLinks';
 import { FooterSignUpForm } from './FooterSignUpForm';

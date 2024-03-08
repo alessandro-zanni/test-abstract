@@ -1,5 +1,5 @@
 import { HStack } from '@chakra-ui/react';
-import { FC } from 'react';
+import { type FC } from 'react';
 import { SOCIAL_LINKS } from '../../../utils/constants';
 import { FooterLink } from './FooterLink';
 
