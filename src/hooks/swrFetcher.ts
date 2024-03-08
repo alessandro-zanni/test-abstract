@@ -31,6 +31,6 @@ export const swrFetcher = async <T = any, D = any>(
         isClosable: true,
       });
     }
-    return null;
+    return undefined;
   }
 };
