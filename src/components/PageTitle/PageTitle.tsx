@@ -6,7 +6,7 @@ export interface PageTitleProps {
 }
 
 export const PageTitle: FC<PageTitleProps> = ({ title }) => (
-  <Heading as="h1" size="xl">
+  <Heading as="h1" size="xl" mb={4}>
     {title}
   </Heading>
 );

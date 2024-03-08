@@ -16,6 +16,7 @@ export const Header: FC = () => (
     bg="white"
     borderBottom="1px solid"
     borderColor="black"
+    zIndex="sticky"
   >
     <Container py="0">
       <Flex align="center" justify="space-between" h="100%">
